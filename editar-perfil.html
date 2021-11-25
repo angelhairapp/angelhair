@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Receber doação</title>
+      <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/editar-perfil.css">
+   </head>
+   <body>
+      <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+         <h5 class="my-0 mr-md-auto font-weight-normal"><img src="assets/images/angel-logo-black.png" alt="logo" class="logo"></h5>
+         <a class="p-2 text-dark" href="index.html">Início</a>
+         <nav class="my-2 my-md-0 mr-md-3">
+         </nav>
+      </div>
+      <main class="d-flex align-items-center min-vh-100 py-3 py-md-0">
+         <div class="container">
+            <div class="card login-card">
+               <div class="row no-gutters">
+                  <div class="col-md-5">
+                     <img src="assets/images/editar-perfil.png" alt="login" class="login-card-img">
+                  </div>
+                  <div class="col-md-7">
+                     <div class="card-body">
+                        <p class="login-card-description">Editar perfil</p>
+                        <hr>
+                        <form action="#!">
+                           <div class="form-group mb-4">
+                              <label>Nome completo</label>
+                              <input type="text" name="nome" id="nome" class="form-control" value="Seu antigo nome aqui">
+                           </div>
+                           <div class="form-group mb-4">
+                              <label>CPF</label>
+                              <input type="text" name="cpf" id="cpf" class="form-control" value="Seu antigo CPF">
+                           </div>
+                           <div class="form-group mb-4">
+                              <label>Celular</label>
+                              <input type="text" name="celular" id="celular" class="form-control" value="Seu antigo celular">
+                           </div>
+                           <div class="form-group mb-4">
+                              <label>Data de nascimento</label>
+                              <input type="date" name="data_nascimento" id="data_nascimento" class="form-control" value="Sua data de nascimento">
+                           </div>
+                           <hr>
+                           <a href="index.html" name="salvar" id="salvar" class="btn btn-block login-btn mb-4" type="button">Salvar</a>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+   </body>
+</html>
